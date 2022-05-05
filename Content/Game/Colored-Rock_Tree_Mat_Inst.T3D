@@ -1,0 +1,30 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Colored-Rock_Tree_Mat_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=A092CAE342AD99B78325098AF83AD7BC
+   Parent=Material'"/Game/Colored-Rock_Tree_Mat.Colored-Rock_Tree_Mat"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000),ExpressionGUID=71FECC8541F09EABF2FFD9BEB4299BF5)
+   VectorParameterValues(1)=(ParameterInfo=(Name="Param"),ParameterValue=(R=0.113725,G=0.000000,B=1.000000,A=1.000000),ExpressionGUID=B65D950949427130DA725DB115874D8E)
+   VectorParameterValues(2)=(ParameterInfo=(Name="Param_1"),ParameterValue=(R=0.115553,G=0.000000,B=1.000000,A=1.000000),ExpressionGUID=7554CB6B4A76B9545FBE17B56354BE25)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=1BF50D3C4CD411032DB784891B68C5AB
+   ReferencedTextureGuids(1)=A7FBBE7C47EB031B8D112AB7B4C9DDFB
+   ReferencedTextureGuids(2)=82B2E18149117ADB1A7689ACAB114B44
+   ReferencedTextureGuids(3)=AFC277B4495DBF9BEC0610AB4439F3A5
+   CachedReferencedTextures(0)=Texture2D'"/Game/Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3.Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/MetaMap_FullTracev6.MetaMap_FullTracev6"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/RoughMap_FullTracev6.RoughMap_FullTracev6"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/NormMap_FullTracev4.NormMap_FullTracev4"'
+   CachedReferencedTextures(4)=Texture2D'"/Game/EmmisveMap_FullTracev7.EmmisveMap_FullTracev7"'
+   LightmassSettings=(EmissiveBoost=100.000000,DiffuseBoost=100.000000,ExportResolutionScale=16.000000,bOverrideCastShadowAsMasked=True,bOverrideDiffuseBoost=True,bOverrideExportResolutionScale=True)
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="MetaMap_FullTracev6",TextureReference=/Game/MetaMap_FullTracev6.MetaMap_FullTracev6)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="NormMap_FullTracev4",TextureReference=/Game/NormMap_FullTracev4.NormMap_FullTracev4)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3",TextureReference=/Game/Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3.Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="RoughMap_FullTracev6",TextureReference=/Game/RoughMap_FullTracev6.RoughMap_FullTracev6)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=06568BE143C934133D0345BD4EA4ACE1
+End Object

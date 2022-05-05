@@ -1,0 +1,266 @@
+Begin Object Class=/Script/Engine.Material Name="Colored-Rock_Tree_Mat"
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCosine Name="MaterialExpressionCosine_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSine Name="MaterialExpressionSine_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_8"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionClamp_2"
+      Input=(Expression=MaterialExpressionMultiply'"Colored-Rock_Tree_Mat:MaterialExpressionMultiply_0"')
+      Min=(Expression=MaterialExpressionMaterialFunctionCall'"Colored-Rock_Tree_Mat:MaterialExpressionMaterialFunctionCall_1"')
+      Max=(Expression=MaterialExpressionMaterialFunctionCall'"Colored-Rock_Tree_Mat:MaterialExpressionMaterialFunctionCall_1"')
+      ClampMode=CMODE_ClampMin
+      MaterialExpressionEditorX=1104
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=F0D54A2344190A409973488F5FCA1246
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionCosine_0"
+      Input=(Expression=MaterialExpressionTime'"Colored-Rock_Tree_Mat:MaterialExpressionTime_0"')
+      MaterialExpressionEditorX=757
+      MaterialExpressionEditorY=922
+      MaterialExpressionGuid=BE07675F4117AED998AD34B4B85196C7
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Lerp_3Color.Lerp_3Color"'
+      FunctionInputs(0)=(ExpressionInputId=A7C103D84B8EF0F31E15F3A71B4BE53B,Input=(Expression=MaterialExpressionVectorParameter'"Colored-Rock_Tree_Mat:MaterialExpressionVectorParameter_0"',InputName="A",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=89D3EA344DF4034BC724BFACAA7D8078,Input=(Expression=MaterialExpressionVectorParameter'"Colored-Rock_Tree_Mat:MaterialExpressionVectorParameter_1"',InputName="B",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(2)=(ExpressionInputId=113DB8B942B3E0CA594A9CA108EE0702,Input=(Expression=MaterialExpressionVectorParameter'"Colored-Rock_Tree_Mat:MaterialExpressionVectorParameter_4"',InputName="C",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(3)=(ExpressionInputId=083CF3604C16D45B495090AB8C3A1C8F,Input=(Expression=MaterialExpressionTextureSample'"Colored-Rock_Tree_Mat:MaterialExpressionTextureSample_1"',InputName="Alpha",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=F84BE0004B411B9BF70441B2BEDC184F,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=448
+      MaterialExpressionEditorY=720
+      MaterialExpressionGuid=6F177FD44B1D637F527561BB6DF6A77A
+      Material=Material'"Colored-Rock_Tree_Mat"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Lerp_3Color.Lerp_3Color"'
+      FunctionInputs(0)=(ExpressionInputId=A7C103D84B8EF0F31E15F3A71B4BE53B,Input=(Expression=MaterialExpressionVectorParameter'"Colored-Rock_Tree_Mat:MaterialExpressionVectorParameter_8"',InputName="A",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=89D3EA344DF4034BC724BFACAA7D8078,Input=(Expression=MaterialExpressionVectorParameter'"Colored-Rock_Tree_Mat:MaterialExpressionVectorParameter_7"',InputName="B",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(2)=(ExpressionInputId=113DB8B942B3E0CA594A9CA108EE0702,Input=(Expression=MaterialExpressionVectorParameter'"Colored-Rock_Tree_Mat:MaterialExpressionVectorParameter_2"',InputName="C",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(3)=(ExpressionInputId=083CF3604C16D45B495090AB8C3A1C8F,Input=(Expression=MaterialExpressionTextureSample'"Colored-Rock_Tree_Mat:MaterialExpressionTextureSample_0"',InputName="Alpha",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=F84BE0004B411B9BF70441B2BEDC184F,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=1104
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=6F177FD44B1D637F527561BB6DF6A77A
+      Material=Material'"Colored-Rock_Tree_Mat"'
+      Desc="Add to Mix and Alter color "
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"Colored-Rock_Tree_Mat:MaterialExpressionMaterialFunctionCall_0"')
+      B=(Expression=MaterialExpressionSine'"Colored-Rock_Tree_Mat:MaterialExpressionSine_0"')
+      MaterialExpressionEditorX=768
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=D58279294EBBAF45891947849BBB7C45
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionSine_0"
+      Input=(Expression=MaterialExpressionTime'"Colored-Rock_Tree_Mat:MaterialExpressionTime_0"')
+      Period=2.000000
+      MaterialExpressionEditorX=752
+      MaterialExpressionEditorY=768
+      MaterialExpressionGuid=1BFF97544F4247217F09029613F30125
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/MetaMap_FullTracev6.MetaMap_FullTracev6"'
+      MaterialExpressionEditorX=1232
+      MaterialExpressionEditorY=1632
+      MaterialExpressionGuid=C5ACD3314DA48F4A81500CB2D50D91DD
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/MetaMap_FullTracev6.MetaMap_FullTracev6"'
+      MaterialExpressionEditorX=256
+      MaterialExpressionEditorY=1504
+      MaterialExpressionGuid=C5ACD3314DA48F4A81500CB2D50D91DD
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_10"
+      Texture=Texture2D'"/Game/MetaMap_FullTracev6.MetaMap_FullTracev6"'
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=C5ACD3314DA48F4A81500CB2D50D91DD
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_16"
+      Texture=Texture2D'"/Game/EmmisveMap_FullTracev7.EmmisveMap_FullTracev7"'
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=800
+      MaterialExpressionGuid=A7034BAE40F886D4622D1280177A7D64
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_4"
+      Texture=Texture2D'"/Game/Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3.Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3"'
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=A69B98E9402C65D4CD941382C2C1DD5B
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_8"
+      Texture=Texture2D'"/Game/NormMap_FullTracev4.NormMap_FullTracev4"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=688
+      MaterialExpressionGuid=3839BA3344468A394EC9E39EDB09F763
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_9"
+      Texture=Texture2D'"/Game/RoughMap_FullTracev6.RoughMap_FullTracev6"'
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=BE5275D44D73A21CB838FB9380C210B7
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTime_0"
+      bOverride_Period=True
+      Period=100.000000
+      MaterialExpressionEditorX=464
+      MaterialExpressionEditorY=896
+      MaterialExpressionGuid=FD1F58134D95EF925B1422A4E2E2356D
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+      ParameterName="Color"
+      ExpressionGUID=71FECC8541F09EABF2FFD9BEB4299BF5
+      MaterialExpressionEditorX=176
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=FA5599C24D7DD0012FAFB284E72162A9
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      DefaultValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+      ExpressionGUID=B65D950949427130DA725DB115874D8E
+      MaterialExpressionEditorX=208
+      MaterialExpressionEditorY=1120
+      MaterialExpressionGuid=4B2A69CF43F7CD40CE1C96A0126CCD14
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+      ParameterName="Param_2"
+      ExpressionGUID=3FDCB5EB45379799BC154CA5ED6965CE
+      MaterialExpressionEditorX=784
+      MaterialExpressionEditorY=1664
+      MaterialExpressionGuid=FA7AFD6F458C74077443C6BA9E842427
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_4"
+      DefaultValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+      ParameterName="Param_1"
+      ExpressionGUID=7554CB6B4A76B9545FBE17B56354BE25
+      MaterialExpressionEditorX=256
+      MaterialExpressionEditorY=1232
+      MaterialExpressionGuid=E505676E42CEB3DE6D3088ADA4448C07
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_7"
+      DefaultValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+      ParameterName="Param_3"
+      ExpressionGUID=15A1CB86400A5DBFCEC280AB6BD40C2F
+      MaterialExpressionEditorX=880
+      MaterialExpressionEditorY=1376
+      MaterialExpressionGuid=34D531B24D9078AC72FCCD9917957EB9
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_8"
+      DefaultValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+      ParameterName="Param_4"
+      ExpressionGUID=CEC406F941780C4089BDC5BFE35689A1
+      MaterialExpressionEditorX=864
+      MaterialExpressionEditorY=1152
+      MaterialExpressionGuid=A0E957AC45EEC8B9CB154F8AF30BFB23
+      Material=Material'"Colored-Rock_Tree_Mat"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_10"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_9"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Anisotropy=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_8"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EmissiveColor=(Expression=MaterialExpressionClamp'"MaterialExpressionClamp_2"')
+   EditorX=928
+   EditorY=-448
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_10"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_9"'
+   Expressions(3)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_8"'
+   Expressions(4)=MaterialExpressionClamp'"MaterialExpressionClamp_2"'
+   Expressions(5)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(6)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_16"'
+   Expressions(7)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(8)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_1"'
+   Expressions(9)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(10)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_4"'
+   Expressions(11)=MaterialExpressionTime'"MaterialExpressionTime_0"'
+   Expressions(12)=MaterialExpressionSine'"MaterialExpressionSine_0"'
+   Expressions(13)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(14)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   Expressions(15)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(16)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(17)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_7"'
+   Expressions(18)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_8"'
+   Expressions(19)=MaterialExpressionCosine'"MaterialExpressionCosine_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   ParameterGroupData(4)=(GroupName="None")
+   ParameterGroupData(5)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=190093B34428B9304DCE95AF47B58071
+   CachedExpressionData=(Parameters=(RuntimeEntries[1]=(NameHashes=(1127604729652984635,5715783085211599032,10371715421228879687,12279385124011487613,15475405593545223188,17724729106936980089),ParameterInfos=((Name="Param_4"),(Name="Param_1"),(Name="Param"),(Name="Color"),(Name="Param_2"),(Name="Param_3")),ExpressionGuids=(CEC406F941780C4089BDC5BFE35689A1,7554CB6B4A76B9545FBE17B56354BE25,B65D950949427130DA725DB115874D8E,71FECC8541F09EABF2FFD9BEB4299BF5,3FDCB5EB45379799BC154CA5ED6965CE,15A1CB86400A5DBFCEC280AB6BD40C2F)),VectorValues=((R=0.000000,G=0.000000,B=0.000000,A=1.000000),(R=0.000000,G=0.000000,B=0.000000,A=1.000000),(R=0.000000,G=0.000000,B=0.000000,A=1.000000),(R=0.000000,G=0.000000,B=0.000000,A=1.000000),(R=0.000000,G=0.000000,B=0.000000,A=1.000000),(R=0.000000,G=0.000000,B=0.000000,A=1.000000)),VectorChannelNameValues=((),(),(),(),(),()),VectorUsedAsChannelMaskValues=(False,False,False,False,False,False)),ReferencedTextures=(Texture2D'"/Game/Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3.Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3"',Texture2D'"/Game/MetaMap_FullTracev6.MetaMap_FullTracev6"',Texture2D'"/Game/RoughMap_FullTracev6.RoughMap_FullTracev6"',Texture2D'"/Game/NormMap_FullTracev4.NormMap_FullTracev4"',Texture2D'"/Game/EmmisveMap_FullTracev7.EmmisveMap_FullTracev7"'),FunctionInfos=((StateId=3200506D40C4B9AA51E341AEB06709BA,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Lerp_3Color.Lerp_3Color"'),(StateId=3200506D40C4B9AA51E341AEB06709BA,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Lerp_3Color.Lerp_3Color"')),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=1BF50D3C4CD411032DB784891B68C5AB
+   ReferencedTextureGuids(1)=A7FBBE7C47EB031B8D112AB7B4C9DDFB
+   ReferencedTextureGuids(2)=82B2E18149117ADB1A7689ACAB114B44
+   ReferencedTextureGuids(3)=AFC277B4495DBF9BEC0610AB4439F3A5
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="MetaMap_FullTracev6",TextureReference=/Game/MetaMap_FullTracev6.MetaMap_FullTracev6)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="NormMap_FullTracev4",TextureReference=/Game/NormMap_FullTracev4.NormMap_FullTracev4)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3",TextureReference=/Game/Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3.Rock_Tree_WorkFlow-Figured-ColoeMap_FullTracev3)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="RoughMap_FullTracev6",TextureReference=/Game/RoughMap_FullTracev6.RoughMap_FullTracev6)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12Global", True))
+   LightingGuid=DDF66B1544BC83A85A1C4895FD0392F0
+End Object

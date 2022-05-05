@@ -1,0 +1,23 @@
+Begin Object Class=/Script/Engine.Material Name="CrystalVase"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=2.420000
+      MaterialExpressionEditorX=-353
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=7A9CF6D64268890B2B2783BE5BA931C0
+      Material=Material'"CrystalVase"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BlendMode=BLEND_Translucent
+   TranslucencyLightingMode=TLM_Surface
+   Expressions(0)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=EC3D49C44CEFDD947E10C0A206A95F22
+   CachedExpressionData=(QualityLevelsUsed=(False,False,False,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=AED6E5A540335ECA62D0B8A23C6A4801
+End Object

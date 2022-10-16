@@ -1,0 +1,23 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="RockDeeprRoot_Glow_Int2"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=4FA62E6D46EE6F6BBD57208BC6561C5D
+   Parent=Material'"/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy_Version__2_Mat.RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Time intervuls"),ParameterValue=3.700000,ExpressionGUID=9B4D213145CAC2417CAA839B30CF6F18)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Glow3"),ParameterValue=(R=0.431972,G=0.009604,B=0.686000,A=1.000000),ExpressionGUID=14A29F2A46C95002483B0395E6D2294E)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=192BC9E24758C46CC86A6FAD7E7918FE
+   CachedReferencedTextures(0)=Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_UV_Version_SnapShot1.RockDeeprRoot_UV_Version_SnapShot1"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy_Version__2.RockDeeprRoot_BaseCopy_Version__2"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/Rock_Tree_UVs/RockTree_MetaMap.RockTree_MetaMap"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/Rock_Tree_UVs/RockTree_RoughMap.RockTree_RoughMap"'
+   CachedReferencedTextures(4)=Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy-NormalMap.RockDeeprRoot_BaseCopy-NormalMap"'
+   CachedReferencedTextures(5)=Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy_Version__2-NormalMapV2.RockDeeprRoot_BaseCopy_Version__2-NormalMapV2"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="RockDeeprRoot_BaseCopy_Version__2",TextureReference=/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy_Version__2.RockDeeprRoot_BaseCopy_Version__2)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=FCD378AF4069999E5C6EC38F2F991C24
+End Object

@@ -1,0 +1,201 @@
+Begin Object Class=/Script/Engine.Material Name="RockDeeprRoot_BaseCopy_Version__2_Mat"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSine Name="MaterialExpressionSine_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_5"
+      Texture=Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy_Version__2-NormalMapV2.RockDeeprRoot_BaseCopy_Version__2-NormalMapV2"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=6F6B73DA40D254895CE7169D6787A927
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_4"
+      Texture=Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy-NormalMap.RockDeeprRoot_BaseCopy-NormalMap"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=160
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=9BC942474E32B663ADCE80963C1E98EB
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'"/Game/Rock_Tree_UVs/RockTree_RoughMap.RockTree_RoughMap"'
+      MaterialExpressionEditorX=-224
+      MaterialExpressionGuid=814C17E047118E426D62E0A2409C40DF
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/Rock_Tree_UVs/RockTree_MetaMap.RockTree_MetaMap"'
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=D419CB54480D79C40E1FF884F02F3211
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionTime'"RockDeeprRoot_BaseCopy_Version__2_Mat:MaterialExpressionTime_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"RockDeeprRoot_BaseCopy_Version__2_Mat:MaterialExpressionScalarParameter_0"')
+      MaterialExpressionEditorX=112
+      MaterialExpressionEditorY=976
+      MaterialExpressionGuid=F1E66A694A89115D4800DA9DE4C12C4B
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Lerp_3Color.Lerp_3Color"'
+      FunctionInputs(0)=(ExpressionInputId=A7C103D84B8EF0F31E15F3A71B4BE53B,Input=(Expression=MaterialExpressionVectorParameter'"RockDeeprRoot_BaseCopy_Version__2_Mat:MaterialExpressionVectorParameter_0"',InputName="A",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=89D3EA344DF4034BC724BFACAA7D8078,Input=(Expression=MaterialExpressionVectorParameter'"RockDeeprRoot_BaseCopy_Version__2_Mat:MaterialExpressionVectorParameter_2"',InputName="B",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(2)=(ExpressionInputId=113DB8B942B3E0CA594A9CA108EE0702,Input=(Expression=MaterialExpressionVectorParameter'"RockDeeprRoot_BaseCopy_Version__2_Mat:MaterialExpressionVectorParameter_1"',InputName="C",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(3)=(ExpressionInputId=083CF3604C16D45B495090AB8C3A1C8F,Input=(Expression=MaterialExpressionTextureSample'"RockDeeprRoot_BaseCopy_Version__2_Mat:MaterialExpressionTextureSample_0"',InputName="Alpha",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=F84BE0004B411B9BF70441B2BEDC184F,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-32
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=6CBE04E542E73BD1A22BABB82FF87DEB
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"RockDeeprRoot_BaseCopy_Version__2_Mat:MaterialExpressionMaterialFunctionCall_0"')
+      B=(Expression=MaterialExpressionSine'"RockDeeprRoot_BaseCopy_Version__2_Mat:MaterialExpressionSine_0"')
+      MaterialExpressionEditorX=256
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=D58279294EBBAF45891947849BBB7C45
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      ParameterName="Time intervuls"
+      ExpressionGUID=9B4D213145CAC2417CAA839B30CF6F18
+      MaterialExpressionEditorX=-160
+      MaterialExpressionEditorY=1120
+      MaterialExpressionGuid=C49D42C246C4802993501BAF01BBE20D
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionSine_0"
+      Input=(Expression=MaterialExpressionAdd'"RockDeeprRoot_BaseCopy_Version__2_Mat:MaterialExpressionAdd_0"')
+      Period=2.000000
+      MaterialExpressionEditorX=192
+      MaterialExpressionEditorY=768
+      MaterialExpressionGuid=1BFF97544F4247217F09029613F30125
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_UV_Version_SnapShot1.RockDeeprRoot_UV_Version_SnapShot1"'
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=1024
+      MaterialExpressionGuid=C84DFE794F97AC4DC2F6B2A30F7BA463
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy_Version__2.RockDeeprRoot_BaseCopy_Version__2"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=-448
+      MaterialExpressionGuid=C84DFE794F97AC4DC2F6B2A30F7BA463
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTime_0"
+      bOverride_Period=True
+      Period=100.000000
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=880
+      MaterialExpressionGuid=FD1F58134D95EF925B1422A4E2E2356D
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      ParameterName="Glow1"
+      ExpressionGUID=8ED2EEEE47CA25F983E7AF863D617842
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=C07807C4488F4E28DB173489B90628B8
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      ParameterName="Glow3"
+      ExpressionGUID=14A29F2A46C95002483B0395E6D2294E
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=800
+      MaterialExpressionGuid=C07807C4488F4E28DB173489B90628B8
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      ParameterName="Glow 2"
+      ExpressionGUID=62B43334428B895ADA3AB8BC81D44E1B
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=C07807C4488F4E28DB173489B90628B8
+      Material=Material'"RockDeeprRoot_BaseCopy_Version__2_Mat"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_5"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EmissiveColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   EditorX=496
+   EditorY=-336
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(2)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(3)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(4)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_1"'
+   Expressions(5)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(6)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(7)=MaterialExpressionTime'"MaterialExpressionTime_0"'
+   Expressions(8)=MaterialExpressionSine'"MaterialExpressionSine_0"'
+   Expressions(9)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(10)=MaterialExpressionAdd'"MaterialExpressionAdd_0"'
+   Expressions(11)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(12)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(13)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"'
+   Expressions(14)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_5"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=476DE4CE4C8EF3E52C1293979E2F75FC
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(67251780293939813),ParameterInfos=((Name="Time intervuls")),ExpressionGuids=(9B4D213145CAC2417CAA839B30CF6F18)),RuntimeEntries[1]=(NameHashes=(10449066451845841525,12385296827661032359,16183415463095598520),ParameterInfos=((Name="Glow3"),(Name="Glow 2"),(Name="Glow1")),ExpressionGuids=(14A29F2A46C95002483B0395E6D2294E,62B43334428B895ADA3AB8BC81D44E1B,8ED2EEEE47CA25F983E7AF863D617842)),ScalarValues=(0.000000),VectorValues=((R=0.000000,G=0.000000,B=0.000000,A=0.000000),(R=0.000000,G=0.000000,B=0.000000,A=0.000000),(R=0.000000,G=0.000000,B=0.000000,A=0.000000)),ScalarMinMaxValues=((X=0.000000,Y=0.000000)),ScalarCurveValues=(None),ScalarCurveAtlasValues=(None),VectorChannelNameValues=((),(),()),VectorUsedAsChannelMaskValues=(False,False,False)),ReferencedTextures=(Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_UV_Version_SnapShot1.RockDeeprRoot_UV_Version_SnapShot1"',Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy_Version__2.RockDeeprRoot_BaseCopy_Version__2"',Texture2D'"/Game/Rock_Tree_UVs/RockTree_MetaMap.RockTree_MetaMap"',Texture2D'"/Game/Rock_Tree_UVs/RockTree_RoughMap.RockTree_RoughMap"',Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy-NormalMap.RockDeeprRoot_BaseCopy-NormalMap"',Texture2D'"/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy_Version__2-NormalMapV2.RockDeeprRoot_BaseCopy_Version__2-NormalMapV2"'),FunctionInfos=((StateId=3200506D40C4B9AA51E341AEB06709BA,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Lerp_3Color.Lerp_3Color"')),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=507DB6D6468F68D53EDC5D8819EAC9E7
+   ReferencedTextureGuids(1)=A36FE00C4704C38FC0951A80786B7B6F
+   ReferencedTextureGuids(2)=192BC9E24758C46CC86A6FAD7E7918FE
+   ReferencedTextureGuids(3)=6AF5F96346E5CBDF6B1C1B8C800736F1
+   ReferencedTextureGuids(4)=CA91A5FE47CE25E4C7C7748A10CF37FF
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="RockDeeprRoot_BaseCopy_Version__2",TextureReference=/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy_Version__2.RockDeeprRoot_BaseCopy_Version__2)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="RockDeeprRoot_BaseCopy_Version__2-NormalMapV2",TextureReference=/Game/Rock_Tree_UVs/RockDeeprRoot_BaseCopy_Version__2-NormalMapV2.RockDeeprRoot_BaseCopy_Version__2-NormalMapV2)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="RockDeeprRoot_UV_Version_SnapShot1",TextureReference=/Game/Rock_Tree_UVs/RockDeeprRoot_UV_Version_SnapShot1.RockDeeprRoot_UV_Version_SnapShot1)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="RockTree_MetaMap",TextureReference=/Game/Rock_Tree_UVs/RockTree_MetaMap.RockTree_MetaMap)
+   TextureStreamingData(4)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="RockTree_RoughMap",TextureReference=/Game/Rock_Tree_UVs/RockTree_RoughMap.RockTree_RoughMap)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12Global", True))
+   LightingGuid=BD3D680A4D6E9C94621C048FE1A43A96
+End Object
